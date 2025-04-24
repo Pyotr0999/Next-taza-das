@@ -1,7 +1,12 @@
+import CardCompon from "./componets/CardCompon";
+import CardsFl from "./componets/CardsFl";
+import MainBgi from "./componets/MainBgi";
+
 export default function Home() {
   return (
-    <div className="">
-      Home
-    </div>
+    <main>
+      <MainBgi />
+      <CardCompon />
+    </main>
   );
 }

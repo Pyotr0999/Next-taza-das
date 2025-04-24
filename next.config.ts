@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const NextConfig = {
+  // Անջատում է Turbopack-ը development-ում
+  experimental: {
+    turbo: false,
+  },
 };
 
-export default nextConfig;
+module.exports = NextConfig;

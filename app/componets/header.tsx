@@ -4,10 +4,10 @@ import Nav from "./nav";
 
 export default function Header() {
     return (
-     <header className=''>
+     <header className='flex justify-around items-center p-[20px]'>
       <Link href="/">
       <Image 
-      src="/logo.webp"
+      src="/relocate.png"
       alt="logo"
       width={128}
       height={128}
