@@ -17,3 +17,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
 }
+.card_foot>h2{
+  padding: 10px 0;
+  color: white;
+}
+.card_foot>p{
+  color: rgb(255, 255, 255);
+  position: relative;
+} 

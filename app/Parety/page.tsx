@@ -1,7 +1,18 @@
+import BGContMn from "./bgContMn";
+import Header2cnt from "./Header2";
+import HeaderCns2 from "./HeaderCnasss2";
+
 export default function Shopscard(){
     return(
         <div className="">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur dolores eos eum atque quo quisquam commodi voluptatum libero, excepturi voluptas sed, quod corrupti recusandae placeat, distinctio eius! Tenetur, sapiente?</h1>
+            <BGContMn/>
+        <main>
+    <div className="flex justify-center gap-[100px]">
+      <Header2cnt/>
+      <HeaderCns2/>
+      </div>
+        </main>
         </div>
+
     )
 }
